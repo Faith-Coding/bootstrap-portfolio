@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --branding-color: #6c63ff;
+  --heading-font-family: "playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #f9f7fe;
+}
+body {
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h4 {
+  font-size: 22px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.logo{
+  max-height: 40px;
+}
+nav{
+  padding: 0;
+  margin: 0;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a{
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out
+}
+nav a:hover, nav li.active a{
+  text-decoration: underline;
+  color: var(--branding-color)
+}
+footer .contact-box p{
+margin: 0;
+
+}
+footer .contact-box{
+background: var(--secondary-color);
+padding: 30px 120px;
+border-radius: 10px;
+
+}
+footer .email-link{
+  text-decoration: none;
+  color:black;
+  font-size: 24px;
+  
+}
+footer .email-link:hover{
+  text-decoration: underline;
+ color: var(--branding-color);
+
+}
+footer .social-links a{
+  margin: 0 20px;
+  color: var(--branding-color);
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+
+}
+footer .social-links a:hover{
+color: white;
+background-color: var(--branding-color);
+
+}
+.hero p {
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+  margin: 0;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+.content-container {
+  padding: 60px 20px;
+  
+}
+.content-container img{
+  border-radius: 20px 20px;
+
+}
+.content{
+  margin: 30px;
+}
+.content-container h1{
+  font-size: 53px;
+  line-height: 1.5;
+}
+.content-container h2{
+  font-size: 26px;
+  line-height: 1.5;
+}
+.content-container  h3{
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 20px 0 0;
+  font-family: var(--default-font-family);
+  
+}
+.content-container  p{
+  font-size: 18px;
+  font-family: var(--default-font-family);
+
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 20px;
+}
+.center-block {
+  max-width: 300px;
+  height: 300px;
+ }
+.btn-branding-outline {
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 20px;
+}
+.project-description{
+   padding: 120 60px;
+   
+}
+@media(max-width: 960px) {
+  h1{
+    font-size: 44px;
+    line-height: 2;
+  }
+   h2{
+    font-size: 42px;
+    line-height: 1.5;
+  }
+  .hero {
+padding: 50px 20px;
+}
+    .project-description{
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+}
+.content-container {
+  text-align: center;
+  padding: 0;  
+}
+.content-container h1 {
+  font-size: 32px; 
+}
+.content-container  h2 {
+  font-size: 17px; 
+}
+.content-container img {
+  max-width: 300px;
+  
+}
+nav a{
+  font-size: 14px;
+}
+
+}
+
